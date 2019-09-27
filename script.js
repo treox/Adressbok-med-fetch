@@ -27,7 +27,7 @@ fetch('adressbok-1.json')
         } // Slut på loop
         lista1.innerHTML = liElement;
     })
-    // Catch funktion som fångar upp fel om data ite laddas korrekt:
+    // Catch funktion som fångar upp fel om data inte laddas korrekt:
     .catch(function(err) {
         console.log(JSON.stringify(err));
     });
